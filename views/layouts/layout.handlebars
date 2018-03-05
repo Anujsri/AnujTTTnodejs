@@ -1,0 +1,83 @@
+<!--Front-End page when open website (Home Page)-->
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>TTT TASK ANUJ SRIVASTAVA</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <link href="/css/ttt.css" rel="stylesheet">
+    
+  </head>
+<body style=" background-color: #DAF7A6" >
+
+  <!-- Creation of Header -->
+
+<header>
+     <nav id="header-nav" class="navbar navbar-default" style="background-color: #00688B">
+       <div class="container">
+         <div class="navbar-header">
+          <div  class="pull-left visible-md visible-lg" >
+          <img src="/image/an.jpg" class="img-circle"  id="logo-img" alt="My Photo">
+          </div>
+         <div class="bottomright visible-md visible-lg des-col"><h2>indian institute of information technology </h2>
+          <h2 style="margin-top:5px">design and manufacturing</h2></div>
+          <div class="navbar-brand">
+            <div  class="visible-md visible-lg "><h2>Anuj Srivastava B.Tech </h2>
+            <h2 style="margin-top:5px">Pre Final Year student </h2>
+            <h2 style="margin-top:5px">Computer science & engineering</h2>
+            <h2 style="margin-top:5px">Contact:8827263684</h2></div> 
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>
+<!-- End of Header -->
+
+  <!-- Use of Container for create form to take  Number input from Users-->
+<div class="container" style="margin-top: 70px;  ">
+      <div class="row">
+        <div class="col-md-3"></div>
+          <div class="col-md-6  w3-khaki" style="border: 2px solid white;">
+
+            <!-- CREATE FORM -->
+            <form method="get" action="/getemail" enctype="multipart/form-data">          
+               <div class="form-group" style="margin-top: 100px">    
+                <input type="number" class="form-control"  placeholder="Enter a Number.." name="Number" min="1" max="384"required >
+               </div>
+                <div class="form-group">
+                   <button type="submit" class="btn btn-primary pull-right" value="submit" name="Submit" >Submit</button>
+                   <button type="reset" class="btn btn-danger">Reset</button>
+                </div>
+            </form>
+            <!-- END OF FORM -->
+
+       <div class="list-group">
+         <div  class="list-group-item list-group-item-action flex-column align-items-start active">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Information About App</h5>
+          </div>
+         <ul >
+           <h5>When you upload a file(default word.txt)</br>
+           <h5>and enter a number(Say N) it will provide N word and </br>
+           <h5>their frequency in decending order.</h5>
+         </ul>
+        </div>
+      </div><!-- list group -->
+ </div> <!-- END OF COL-MD-6 --> 
+     <div class="col-md-3"></div>
+</div><!-- END OF Row -->
+
+</div><!-- END OF Container -->
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/an.js"></script>
+</body>
+</html>

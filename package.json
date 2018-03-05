@@ -1,0 +1,31 @@
+{
+  "name": "ReadFileApp",
+  "version": "1.0.0",
+  "description": "Simple authentication system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anuj Srivastava",
+  "license": "No-Lisence",
+  "dependencies": {
+    "array": "^0.4.3",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cli-table": "^0.3.1",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "4.14.0",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "string": "^3.3.3"
+  }
+}
