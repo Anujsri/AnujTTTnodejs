@@ -15,12 +15,12 @@ Front-End : Bootstrap, Javascript,CSS3
 
 ### Installation
 
-  
+$ npm install express --save
 
-```sh
+
 $ npm install
 ```
 
-```sh
+
 $ npm start
 ```
