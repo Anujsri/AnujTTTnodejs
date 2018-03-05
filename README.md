@@ -14,13 +14,20 @@ Front-End : Bootstrap, Javascript,CSS3
 
 
 ### Installation
-
-$ npm install express --save
-
-
+```sh
+ $ npm install express save--
+ ```
+ 
+```sh
+ npm insatll express
+ ```
+ ```sh
+ npm install express-handlebars
+ 
+```sh
 $ npm install
 ```
 
-
+```sh
 $ npm start
 ```

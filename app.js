@@ -1,22 +1,8 @@
 var express = require('express');
 var path = require('path');
-var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
-var expressValidator = require('express-validator');
-var flash = require('connect-flash');
-var session = require('express-session');
 var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy;
-var mongo = require('mongodb');
-var mongoose = require('mongoose');
-var Table = require('cli-table');
-var S = require('string');
-var http = require('http'); 
-mongoose.connect('mongodb://localhost/tttapp');
-//No need of database in this app
-var db = mongoose.connection;
-
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -31,7 +17,7 @@ app.set('view engine', 'handlebars');
 // BodyParser Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
+//app.use(cookieParser());
 
 // Set Static Folder
 app.use(express.static(path.join(__dirname, 'public')));
